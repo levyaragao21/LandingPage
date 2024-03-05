@@ -1,0 +1,121 @@
+@import url("https:/font.cdnfonts.com/css/gilroy-bold?styles=20876,20879,20880");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Gilroy-Regular", sans-serif;
+
+
+}
+
+body { 
+    height: 100vh;
+    background-image: url('https://codeinstages.github.io/furnitureLandingPage/backgroundImg.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+  .navLogo{
+    color: #ffff;
+    font-family:"Gilroy-Bold" ;
+    font-size: 28px;
+    letter-spacing: 0.28 px;
+    cursor: pointer;
+    
+
+  }
+  nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+
+  
+  nav ul { 
+    display: flex;
+    gap: 64px;
+  }
+   
+  nav li a { 
+    color: #fff;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    transition: 0.3s;
+  }
+   nav ul{
+    display: flex;
+    gap: 64px;
+   }
+   nav li a {
+    color: #fff;
+    font-family: "Gilmoy-Medium";
+    font-size: 18px;
+    transition: 0.3s;
+   }
+   nav i{
+    cursor: pointer;
+
+   }
+   li a:hover{
+    color: #e58411;
+   }
+   main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .mainTitle { 
+    color: #fff;
+    text-align: center;
+    font-family: "Gilroy-Bold";
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: -0.8px;
+}
+ 
+ .mainDescription { 
+    color: #fff;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.inputWrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    width: 344px;
+    padding: 8px 8px 8px 20px;
+    border-radius: 42px;
+}
+ 
+ .inputWrapper i { 
+    background-color: #e58411;
+    border-radius: 24px;
+    padding: 11px;
+    cursor: pointer;
+}
+.inputWrapper input { 
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+ 
+ input:focus-visible { 
+    outline: none;
+}
+
+
+  
+  
+   
